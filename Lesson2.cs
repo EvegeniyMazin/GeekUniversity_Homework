@@ -89,12 +89,6 @@ namespace Homeworks
             Console.Clear();
             return false;
         }
-        //static void main()
-        //{
-        //    intlenght("182212");
-        //    minint(3,5,1);
-        //    oddnumbers();
-        //    login();
-        //}
+        
     }
 }
