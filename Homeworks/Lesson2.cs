@@ -20,7 +20,7 @@ namespace Homeworks
         public void intLenght(string number)
         //задание 2
         {
-            Console.WriteLine("Task 2: finding number length.\n>>>>>>>>>>\n");
+            Console.WriteLine("\nTask 2: finding number length.\n>>>>>>>>>>\n");
             int NumberLength = number.Length;
             Console.WriteLine($"The length of the {number} is {NumberLength}");
             Console.ReadKey();
@@ -28,7 +28,7 @@ namespace Homeworks
         public void OddNumbers()
         //Задание 3
         {
-            Console.WriteLine("Task 3: finding the sum of odd numbers.\n>>>>>>>>>>\n");
+            Console.WriteLine("\nTask 3: finding the sum of odd numbers.\n>>>>>>>>>>\n");
             Console.WriteLine("Write any number. Func will calculate the sum of odd ones. \nTyping zero stops the function.");
 
             float NumSum = 0;
@@ -52,6 +52,7 @@ namespace Homeworks
         public bool logIn()
         //Задание 4
         {
+            Console.WriteLine("\nTask 4: Creating login system.\n>>>>>>>>>>\n");
             int MaxAttempts = 3;
             int CurrentAttempt = 0;
             string TrueLogin = "root";
@@ -85,7 +86,7 @@ namespace Homeworks
                 }
             }
             while (CurrentAttempt < MaxAttempts);
-            Console.WriteLine("You haave no attempts left.");
+            Console.WriteLine("You have no attempts left.");
             Console.Clear();
             return false;
         }
